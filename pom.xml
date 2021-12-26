@@ -16,7 +16,6 @@
 
     <dependencies>
 
-        <!-- Add Spring MVC and REST support -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
@@ -41,15 +40,12 @@
             <version>5.6.0</version>
         </dependency>
 
-        <!-- Add Servlet support for
-             Spring's AbstractAnnotationConfigDispatcherServletInitializer -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
 
-        <!-- Add support for JSP ... get rid of Eclipse error -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
@@ -99,8 +95,6 @@
         </dependency>
 
     </dependencies>
-
-    <!-- Support for Maven WAR Plugin -->
 
     <build>
         <finalName>CollegeFestManagementSystemWithSpringSecurity</finalName>
